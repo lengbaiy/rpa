@@ -1,0 +1,47 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*secret*
+*Secret*
+*token*
+*Token*
+*key*
+*Key*
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.cookie
+*.cookies
+LINGXING_GLOBAL_CONFIG.json
+LINGXING_API_MCP.md
+
+# Local runtime/cache/output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.venv/
+venv/
+dist/
+build/
+logs/
+*.log
+tmp/
+temp/
+output/
+outputs/
+
+# Office temporary files
+~$*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
